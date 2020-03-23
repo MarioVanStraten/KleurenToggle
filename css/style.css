@@ -1,0 +1,66 @@
+#menuButton{
+    height: 100%;
+}
+
+.navigation-top {
+    width: 100%;
+    height: 32px;
+    display: flex;
+}
+
+.navigation-side{
+    width: 250px;
+}
+
+.show-hide{
+    display: none;
+    transition: ease-in;
+}
+
+.navigation-side ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation-side ul li{
+    padding: 10px;
+    margin: 4px 0;
+    border: 1px solid black ;
+}
+
+.navigation-side ul li label{
+    margin: 0 0 0 5px;
+}
+
+#colorName{
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 29px;
+}
+
+/* Colors */
+
+.Home{
+    background-color: white;
+}
+
+.Red{
+    background-color: red;
+}
+
+.Green{
+    background-color: green;
+}
+
+.Blue{
+    background-color: blue;
+}
+
+.Yellow{
+    background-color: yellow;
+}
+
+.Purple{
+    background-color: purple;
+}
